@@ -1,4 +1,4 @@
-CREATE TABLE `ubigeo_peru_2016`.`provincias` ( `id` INT NOT NULL AUTO_INCREMENT , `id_dep` INT NOT NULL , `ubigeo` VARCHAR NOT NULL , `name` VARCHAR NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `provincias` ( `id` INT NOT NULL AUTO_INCREMENT , `id_dep` INT NOT NULL , `ubigeo` VARCHAR(4) NOT NULL , `name` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
 
 INSERT INTO `provincias` (`id`, `id_dep`, `ubigeo`, `name`) VALUES ( NULL, 01,	'0101', 'Chachapoyas');
 INSERT INTO `provincias` (`id`, `id_dep`, `ubigeo`, `name`) VALUES ( NULL, 01,	'0102', 'Bagua');
